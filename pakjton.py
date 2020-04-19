@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # quiz/quiz.py
 
-from flask import Flask
+from flask import Flask,request
 from flask import render_template
 
 app = Flask(__name__)
@@ -124,8 +124,18 @@ DANE4 = [
 @app.route('/')
 def index():
 
+    return render_template('strona2.html')
 
-    return render_template('index.html', pytania2=DANE2, pytania4=DANE4)
+
+@app.route('/walidacja', methods=['POST'])
+def index2():
+
+   odp = request.form.get("sprawdzenie")
+   if odp=='4':
+
+       return render_template('index.html', pytania2=DANE2, pytania4=DANE4)
+   else:
+       return render_template('strona2.html')
 
 
 if __name__ == '__main__':
