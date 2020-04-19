@@ -2,7 +2,7 @@
 
 body { margin-top: 20px; background-color: #DDEEFF; }
 audio {
-  width: 100%;
+  width: 40%;
   position: relative;
 }
 input[type=number], select {
