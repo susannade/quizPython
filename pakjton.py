@@ -91,7 +91,7 @@ DANE2  = [{
     'odpowiedzi': ['1', '2', '3', '4', '5'],
     },
 {
-    'pytanie': 'Czy twoje wyniki w pracy i efektywność spadła kosztem pogorszyła się?',
+    'pytanie': 'Czy twoje wyniki w pracy i efektywność spadła, pogorszyła się?',
     'odpowiedzi': ['1', '2', '3', '4', '5'],
     },
 {

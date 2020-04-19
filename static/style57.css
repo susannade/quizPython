@@ -1,6 +1,19 @@
 /* todo/static/style.css */
 
 body { margin-top: 20px; background-color: #DDEEFF; }
+audio {
+  width: 100%;
+  position: relative;
+}
+input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 h1 { 
   border-left: 1px solid black;
   border-right: 1px solid black;
