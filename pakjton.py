@@ -31,7 +31,7 @@ DANE2  = [{
     'odpowiedzi': ['Sam', 'Z rodzicami', 'Z partnerem','Ze współlokatorami'],
     },
     {
-    'pytanie': 'Czy przyłapałeś się na " posiedzę jeszcze pare minut i wyłączam?',
+    'pytanie': 'Czy przyłapałeś się na "posiedzę jeszcze pare minut i wyłączam"?',
     'odpowiedzi': ['1', '2', '3', '4', '5'],
     },
     {
@@ -91,11 +91,11 @@ DANE2  = [{
     'odpowiedzi': ['1', '2', '3', '4', '5'],
     },
 {
-    'pytanie': 'Czy twoje wyniki w pracy i efektywność spadła, pogorszyła się?',
+    'pytanie': 'Czy twoje wyniki w pracy i efektywność "cierpią" z powodu Internetu?',
     'odpowiedzi': ['1', '2', '3', '4', '5'],
     },
 {
-    'pytanie': 'Czy twoje osiągi w nauce zmalały przez czas spędzony w sieci?',
+    'pytanie': 'Czy twoje oceny "cierpią" z powodu ilości spędzanego czasu w sieci?',
     'odpowiedzi': ['1', '2', '3', '4', '5'],
     },
 {
